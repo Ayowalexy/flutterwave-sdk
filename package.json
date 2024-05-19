@@ -1,6 +1,6 @@
 {
-  "name": "flutterwave-react-native",
-  "version": "1.0.6",
+  "name": "flutterwave-react-native-sdk",
+  "version": "1.0.7",
   "description": "The official React-Native library for Flutterwave for business v2 and v3 APIs.",
   "main": "dist/index.js",
   "scripts": {
@@ -64,11 +64,14 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-webview": "*",
+    "validator": "*"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react-native-webview": ">=6.0.2"
+    "react-native-webview": "*",
+    "validator": "^13.6.0"
   },
   "config": {
     "commitizen": {
@@ -85,5 +88,6 @@
   "bugs": {
     "url": "https://github.com/Flutterwave/flutterwave-react-native/issues"
   },
-  "homepage": "https://github.com/Flutterwave/flutterwave-react-native#readme"
+  "homepage": "https://github.com/Flutterwave/flutterwave-react-native#readme",
+  "types": "./dist/index.d.ts"
 }
